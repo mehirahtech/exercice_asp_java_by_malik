@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+       *{
+font-family: 'Poppins', sans-serif;
+padding: 0px;
+margin: 0px;
+}
+
+    body{
+        background-color: #EBF5FB;
+        padding: 0px;
+        margin: 0px;
+
+    }
+
+    .header{
+        background-color: #3498DB;
+        color:#fff;
+        margin-top: 0px;
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .logo{
+        width: 70%;
+    }
+
+    .category{
+        width: 100%;
+        min-height: 20vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-top: 30px;
+      
+    }
+    .category2{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-top: 30px;
+        
+    }
+
+    .category div{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%/50%;
+        background-color: #3498DB;
+        border: 1px solid #ddd;
+        margin: 0px 20px 0px;
+    }
+    .category2 .a{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%/50%;
+        background-color: #3498DB;
+        border: 1px solid #ddd;
+        margin: 0px 2px 0px;
+        margin-top: -50px;
+    }
+    .vetements{
+        background-image: url('https://imgs.search.brave.com/SC6lLARxP8F949J__FJgzHR3pwK_LPV2oqx_O12tMNM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NjFnZmp3YkZUQ0wu/anBn');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+   }
+   .bijoux{
+        background-image: url('https://imgs.search.brave.com/dI5Dgmy_9ADyRlygTLi9SWx1ctVSwT3drcu351NV1ag/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/aS1kaWFtYW50cy5j/b20vdGhtYi9jYXJy/ZS81MTIvbWVkaWFz/X3VwbG9hZC9tb3hp/ZS9iaWpvdXgvQmFn/dWUtZGlhbWFudC1v/ci1ibGFuYy1ub3Vz/LTIuanBn');
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+   }
+
+   .shoes{
+        background-image: url('https://imgs.search.brave.com/F-q35tT4SVhIHaKO-v7PwuSjWjhzKZsP14Sod3ZWjpY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuYWRpZGFzLmNv/bS9pbWFnZXMvd182/MDAsZl9hdXRvLHFf/YXV0by9lYjE3Nzgw/NTI4ZTE0ZWYxYTRl/ZmFhMDgwMTUxMDZh/ZF85MzY2L1NhbW9h/X1Nob2VzX1doaXRl/XzY3NTAzM18wMV9z/dGFuZGFyZC5qcGc');
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+   }
+   .iphone{
+        background-image: url('https://imgs.search.brave.com/OvYm_n7ScAxwV8jXq5bUMd-u8hqbgNokdoEOMD0W_n0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/YXBwbGUuY29tL25l/d3Nyb29tL2ltYWdl/cy9wcm9kdWN0L2lw/aG9uZS9zdGFuZGFy/ZC9BcHBsZS1pUGhv/bmUtMTQtaVBob25l/LTE0LVBsdXMtMnVw/LXB1cnBsZS0yMjA5/MDdfaW5saW5lLmpw/Zy5sYXJnZS5qcGc');
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+   }
+
+   .creme{
+        background-image: url('https://imgs.search.brave.com/VTRgNPuXUow1ELhwca7I6o0jf30tnUMUSaIb4AlX_DA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NDFLam5yVjEya0wu/anBn');
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+   }
+   .jacket{
+        background-image: url('https://imgs.search.brave.com/GoN_O7OaK5Al13m23GTq7SQstqFhd_P_SAMILK5NVGk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTFxK0NmNk9HaEwu/anBn');
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+   }
+   .details{
+    width: 100%;
+
+    display: flex;
+    padding-left: 20px;
+
+   }
+
+   .image{
+    background-image: url('https://imgs.search.brave.com/GoN_O7OaK5Al13m23GTq7SQstqFhd_P_SAMILK5NVGk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTFxK0NmNk9HaEwu/anBn');
+    height: 50vh;
+    width: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+   }
+
+   .details-info{
+    padding: 20px;
+
+   }
+
+   button{
+    background-color: #3498DB;
+    color: #fff;
+    padding: 7px;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.12);
+   }
